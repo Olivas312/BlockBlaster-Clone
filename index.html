@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block Blaster Clone</title>
+    <link rel="stylesheet" href="assets/style/index.css">
+    <!-- Implementar BootStrap para responsividade ? -->
+</head>
+<body>
+    <!-- Inicio Da Pagina -->
+    <div id="page">
+        <!-- Conteudo da Aplicação Web -->
+      <main id="gameBox">
+            <!-- Divisão Para contador e Container main-game -->
+            <div id="score">
+                <!-- Pontuação do jogo -->
+                <h2>Score -
+                    <span class="points">000000</span>
+                </h2> 
+                                
+                </div>
+            <div class="container">
+                <!-- Divisão do conteiner onde ira ficar o pincpal UX/Ui -->
+                <aside id="ranking">
+                    <!-- Local onde ficará armazenado recordes para competições entre os jogadores -->
+                    <div>
+                        <h8 class="center"><img src="assets/image/coroa.png" alt=" coroa  By muhammad atho" width="30px">Ranking</h8>
+                        <div id="playerPosition">
+                          
+                                <small class="numRanking">1°<h9 id="namePlayer1"></h9><h10 id="poitsPlayer1"></h10></small>
+                                <small class="numRanking">2°<h9 id="namePlayer2"></h9><h10 id="poitsPlayer2"></h10></small>
+                                <small class="numRanking">3°<h9 id="namePlayer3"></h9><h10 id="poitsPlayer3"></h10></small>
+                                <small class="numRanking">4°<h9 id="namePlayer4"></h9><h10 id="poitsPlayer4"></h10></small>
+                                <small class="numRanking">5°<h9 id="namePlayer5"></h9><h10 id="poitsPlayer5"></h10></small>
+                                <small class="numRanking">6°<h9 id="namePlayer6"></h9><h10 id="poitsPlayer6"></h10></small>
+                                <small class="numRanking">7°<h9 id="namePlayer7"></h9><h10 id="poitsPlayer7"></h10></small>
+                                <small class="numRanking">8°<h9 id="namePlayer8"></h9><h10 id="poitsPlayer8"></h10></small>
+                                <small class="numRanking">9°<h9 id="namePlayer9"></h9><h10 id="poitsPlayer9"></h10></small>
+                                <small class="numRanking">10°<h9 id="namePlayer1"></h9><h10 id="poitsPlayer10"></h10></small>
+                        
+                        </div>
+                    </div>
+                    </aside>
+                <div id="gridGame">
+                    <!-- Local onde o Jogo Acontece -->
+                    <table>
+                        <tbody id="game">
+                            <tr class="row1">
+                                
+                          
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row2">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row3">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row4">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row5">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row6">
+                                
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <!-- <tr class="row7">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row8">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row9">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row10">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row11">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr class="row12">
+                                
+                                
+                                
+                                
+                                
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr> -->
+
+                        </tbody>
+                    </table>
+             
+                    </div>
+                <div id="containerPreview">
+                    <!-- Pré-visualização da peça antecedente a cair  -->
+                <table>
+                    <tbody class="preview">                    
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+                    </div>
+            </div>
+
+        </main>
+    </div>
+    <!-- Fim Da Pagina -->
+
+    <!-- Script JS -->
+    <script src="assets/js/index.js"></script>
+</body>
+</html>

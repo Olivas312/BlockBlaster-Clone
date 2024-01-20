@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#page{
+    width: 100%;
+    height: 100vh;
+}
+#gameBox{
+    background-color: #02022eb9;
+    color: aliceblue;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+.container{
+    width: 70%;
+    display: flex;
+}
+#score{
+    width: 30%;
+    height: 5%;
+
+    margin-left: 350px;
+    text-align: center;
+    padding: 5px;
+}
+#ranking{
+    width: 30%;
+    height: 60%;
+    color: #ffd900b0;
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content:center;
+    align-items: center;
+    text-align: start;
+}
+#playerPosition{
+    display: flex;
+    flex-direction: column;
+}
+#gridGame{
+    width: 40%;
+    height: 60%;
+
+    margin-left: 9rem;
+    margin-top: .9rem;
+    margin-right: 3rem;
+}
+table{
+    border-collapse: collapse;
+    border: 1px solid blue;
+    box-shadow: 1px 1px 1px 1px 1px black;
+   
+}
+td,tr{
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+}
+#containerPreview{
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.preview{
+
+    width: 50px;
+    height: 16px;
+    margin-left: 5rem;
+}
